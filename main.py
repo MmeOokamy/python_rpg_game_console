@@ -68,11 +68,11 @@ def fight():
             print("Both fighters are K.O. !!")
             break
         elif fighter_a.pv <= 0:
-            fighter_b.alive = False
+            fighter_a.alive = False
             print(f"{fighter_b.name} Win!")
             break
         elif fighter_b.pv <= 0:
-            fighter_a.alive = False
+            fighter_b.alive = False
             print(f"{fighter_a.name} Win!")
             break
         
